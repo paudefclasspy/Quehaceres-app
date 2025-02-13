@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Quehaceres App',
+  description: 'Creado con Next.js, React, Typescript y Tailwind CSS hosteado en Netlify.',
 }
 
 export default function RootLayout({

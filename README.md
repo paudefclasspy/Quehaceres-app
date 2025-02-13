@@ -20,5 +20,5 @@ Una aplicación de gestión de tareas simple y eficiente diseñada para ayudar a
 
 - [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Firebase](https://firebase.google.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)

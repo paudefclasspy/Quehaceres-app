@@ -12,7 +12,6 @@ Una aplicación de gestión de tareas simple y eficiente diseñada para ayudar a
 - **Sincronización en la nube**: Accede a tus tareas desde cualquier dispositivo, manteniéndolas sincronizadas.
 - **Visualización intuitiva**: Vistas de tareas en lista o calendario para una fácil organización.
 - **Tareas recurrentes**: Configura tareas repetitivas según un intervalo de tiempo.
-- **Modo oscuro**: Opción de diseño oscuro para una experiencia visual cómoda.
 - **Filtros y búsqueda**: Filtra tareas por prioridad, fecha o etiquetas y búscalas rápidamente.
 - **Historial de tareas completadas**: Guarda un registro de tareas que ya has completado.
 

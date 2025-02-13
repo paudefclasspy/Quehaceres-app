@@ -38,12 +38,18 @@ cd todo-app
 ```
 
 2️⃣ Instala las dependencias:
-```npm install ``` 
+```
+npm install 
+``` 
 
 3️⃣ Configura las variables de entorno en un archivo .env (si aplica)  
 
 4️⃣ Inicia el servidor:
-```npm start```  
+```
+npm start
+```  
 
 5️⃣ Accede a la aplicación en tu navegador:  
-```http://localhost:3000 ```
+```
+http://localhost:3000
+```

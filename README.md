@@ -1,4 +1,4 @@
-# Todo App - Gestión de Tareas Personales
+# QueHaceres - App de Gestión de Tareas Personales
 
 Una aplicación de gestión de tareas simple y eficiente diseñada para ayudar a los usuarios a organizar y gestionar sus tareas diarias. Esta aplicación permite crear, editar y eliminar tareas, asignar prioridades y fechas límite, y recibir recordatorios para asegurarse de que nada se pase por alto.
 
@@ -21,3 +21,27 @@ Una aplicación de gestión de tareas simple y eficiente diseñada para ayudar a
 - [Node.js](https://nodejs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+## 📥 Instalación  
+
+### ⚡ Requisitos previos  
+Asegúrate de tener instalado:  
+- [Node.js](https://nodejs.org/)  
+- [Git](https://git-scm.com/)  
+
+### 🔧 Pasos de instalación  
+
+1️⃣ Clona este repositorio:  
+git clone https://github.com/tuusuario/todo-app.git  
+cd todo-app  
+
+2️⃣ Instala las dependencias:
+npm install  
+
+3️⃣ Configura las variables de entorno en un archivo .env (si aplica)  
+
+4️⃣ Inicia el servidor:
+npm start  
+
+5️⃣ Accede a la aplicación en tu navegador:  
+http://localhost:3000 

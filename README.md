@@ -32,16 +32,18 @@ Asegúrate de tener instalado:
 ### 🔧 Pasos de instalación  
 
 1️⃣ Clona este repositorio:  
-`git clone https://github.com/tuusuario/todo-app.git  
-cd todo-app ` 
+```
+git clone https://github.com/tuusuario/todo-app.git  
+cd todo-app
+```
 
 2️⃣ Instala las dependencias:
-`npm install ` 
+```npm install ``` 
 
 3️⃣ Configura las variables de entorno en un archivo .env (si aplica)  
 
 4️⃣ Inicia el servidor:
-`npm start`  
+```npm start```  
 
 5️⃣ Accede a la aplicación en tu navegador:  
-`http://localhost:3000 `
+```http://localhost:3000 ```

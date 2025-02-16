@@ -4,6 +4,19 @@ import { useState } from "react"
 import type { Task } from "@/types/Task"
 import { PlusCircleIcon } from "lucide-react"
 
+const CATEGORIES = [
+  "Personal",
+  "Trabajo",
+  "Estudio",
+  "Hogar",
+  "Salud",
+  "Compras",
+  "Proyectos",
+  "Otros"
+] as const;
+
+type Category = typeof CATEGORIES[number];
+
 interface TaskFormProps {
   addTask: (task: Task) => void
 }
@@ -12,7 +25,7 @@ export default function TaskForm({ addTask }: TaskFormProps) {
   const [title, setTitle] = useState("")
   const [description, setDescription] = useState("")
   const [priority, setPriority] = useState<"low" | "medium" | "high">("medium")
-  const [category, setCategory] = useState("")
+  const [category, setCategory] = useState<Category>("Personal")
   const [labels, setLabels] = useState<string[]>([])
   const [deadline, setDeadline] = useState("")
 
@@ -38,7 +51,7 @@ export default function TaskForm({ addTask }: TaskFormProps) {
     setTitle("")
     setDescription("")
     setPriority("medium")
-    setCategory("")
+    setCategory("Personal") // Updated to use the default category
     setLabels([])
     setDeadline("")
   }
@@ -99,14 +112,18 @@ export default function TaskForm({ addTask }: TaskFormProps) {
             <label htmlFor="category" className="block text-sm font-medium text-gray-300 mb-1">
               Categoría
             </label>
-            <input
+            <select
               id="category"
-              type="text"
               value={category}
-              onChange={(e) => setCategory(e.target.value)}
-              placeholder="Ingrese la categoría"
+              onChange={(e) => setCategory(e.target.value as Category)}
               className={inputClasses}
-            />
+            >
+              {CATEGORIES.map((cat) => (
+                <option key={cat} value={cat}>
+                  {cat}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
         <div>
